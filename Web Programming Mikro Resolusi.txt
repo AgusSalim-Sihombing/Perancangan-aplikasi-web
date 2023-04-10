@@ -1,5 +1,5 @@
 WPM (WEB PROGRAMING MIKROSKIL) RESOLUSI
-- Konsisten untuk membuat konten 1x seminggu
+- Konsisten untuk membuat konten Minimal 1x seminggu
 - Membuat forum diskusi
 - Membuat case study untuk solf problem
 - Membuat Source code yang mudah dibaca dan dipahami
