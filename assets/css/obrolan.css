@@ -1,0 +1,364 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 2px;
+    height: 60px;
+    border: 1px solid black;
+}
+img{
+    width: 90px;
+}
+.logo{
+    margin-right: auto;
+    display: flex;
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    line-height: 70px;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.navbar li {
+    margin-right: 40px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a.aktif{
+    border-bottom: 5px solid black;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+.container{
+    display: flex;
+    margin: 0px auto;
+}
+.col-user{
+    width: 35%;
+    height: 525px;
+    background-color: rgb(253, 253, 253);
+    border: 1px solid black;
+    margin-top: 60px;
+    padding: 0px;
+}
+.col-chat{
+    width: 65%;
+    height: 525px;
+    background: url('../../aset/desktop-wallpaper-desk-office-table.jpg');
+    border: 1px solid black;
+    margin-top: 60px;
+    padding: 0px;
+}
+.header h2{
+    text-align: left;
+    margin-left: 10px;
+    float: left;
+    margin-top: 15px;
+    font-size: 25px;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(253, 253, 253, 0.993);
+}
+.nav-icons{
+    display: flex;
+}
+.nav-icons li{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-left: 75px;
+}
+#dua{
+    font-size: 1.8em;
+}
+.search-chat{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-chat .cari{
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.search-chat .cari .cari1{
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgb(191, 188, 188);
+    height: 29px;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+.chatlist{
+    position: relative;
+    height: calc(100% - 110px);
+    overflow-y: auto;
+}
+.chatlist .block{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid rgb(96, 95, 95, 0.6);
+    cursor: pointer;
+}
+
+.chatlist .block.active{
+    background: #ebebeb;
+}
+
+.chatlist .block:hover{
+    background: #f5f5f5;
+}
+
+.chatlist .block .imgbx{
+    display: flex;
+    position: relative;
+    width: 55px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.chatlist .block .details{
+    position: relative;
+    width: 100%;
+}
+
+.chatlist .block .details{
+    color: #111;
+}
+
+.chatlist .block.unread .details{
+    color: #06d755;
+}
+
+.message-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.message-p p{
+    color: rgb(110, 110, 110);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    font-size: 0.9em;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-left: 10px;
+    text-overflow: ellipsis;
+}
+.tolak{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.tolak h4{
+    font-size: 1.1em;
+    font-weight: 800;
+    color: black;
+    margin-left: 10px;
+}
+.details .time{
+    display: flex;
+    margin-left: 310px;
+    margin-top: -25px;
+}
+.uname{
+    margin-right: 80%;
+    margin-top: 2px;
+    color: rgb(110, 110, 110);
+}
+.message-p b{
+    background: rgba(95, 180, 87, 1);
+    color: white;
+    min-width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+}
+
+.userimg{
+    display: flex;
+    position: relative;
+    width: 45px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.nav-icons1{
+    display: flex;
+}
+.nav-icons1 li{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.pertama{
+    margin-left: 590px;
+    margin-top: -25px !important;
+}
+
+.kedua{
+    margin-left: 50px;
+    margin-top: -25px !important;
+}
+
+.ketiga{
+    margin-left: 50px;
+    margin-top: -25px !important;
+}
+.imgtext{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgtext h4{
+    font-weight: 400;
+    line-height: 1.2em;
+    margin-right: 490px;
+    margin-top: -38px;
+}
+.chatBox{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 159px);
+    padding: 50px;
+    overflow-y: auto;
+    background: url('./aset/desktop-wallpaper-desk-office-table.jpg');
+}
+.message{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.message p{
+    position: relative;
+    right: 0;
+    text-align: right;
+    max-width: 65%;
+    padding: 12px;
+    background: rgb(190, 190, 190);
+    border-radius: 10px;
+    font-size: 0.9em;
+}
+.message p::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -12px;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(135deg, rgb(190, 190, 190) 0%, rgb(190, 190, 190) 50%,transparent 50%,transparent);
+}
+.message p span{
+    display: flex;
+    margin-top: 5px;
+    font-size: 0.85em;
+}
+.my_message{
+    justify-content: flex-end;
+    margin-left: -80px;
+}
+.frnd_message{
+    justify-content: flex-start;
+}
+
+.frnd_message p{
+    background: rgb(190, 190, 190);
+    text-align: left;
+}
+.message.frnd_message p::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 30px;
+    height: 20px;
+    background: linear-gradient(225deg, rgb(190, 190, 190) 0%, rgb(190, 190, 190) 50%,transparent 50%,transparent);
+}
+
+.chatbox_input{
+    position: relative;
+    width: 96%;
+    height: 50px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.856);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -81px;
+}
+.chatbox_input ion-icon{
+    cursor: pointer;
+    font-size: 1.8em;
+}
+.chatbox_input ion-icon:nth-child(1){
+    margin-right: 15px;
+}
+.chatbox_input input{
+    position: relative;
+    width: 90%;
+    margin: 0px 20px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1em;
+}
+#footer{
+    background-color: #FFFFFF;
+    color: #000;
+    padding: 20px 50px 20px 50px;
+    text-align: right;
+    border-top: 1px solid #d6d6d6;
+    margin-top: 50px;
+}

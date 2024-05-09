@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>halaman beranda</title>
+    <link rel="stylesheet" href="./assets/css/styleriwayat.css">
+    <link rel="stylesheet" href="./assets/css/styleBeranda.css">
+    <script src="./assets/js/script.js"></script>
+
+</head>
+<body>
+    <nav> 
+        <a class="logo" href="#"><img src="./aset/logo/foto1.png" alt="Logo">Leasure Work</a>
+        
+        <ul class="navbar">
+            <li><a href="beranda.html" id="beranda">BERANDA</a></li>
+            <li><a href="riwayat.html" id="riwayat">RIWAYAT</a></li>
+            <li><a href="rekomendasi.html" id="rekomendasi">REKOMENDASI</a></li>
+            <li><a href="obrolan.html" id="obrolan">OBROLAN</a></li>
+            <li><a href="pengaturan.html" id="pengaturan">PENGATURAN</a></li>
+        </ul>      
+    </nav>
+    <div class="kotak">
+        <div class="kotak1">
+            <div class="jdlBox"><h3>Rp. 500.000</h3><h4 id="jdlsaldo">SALDO</h4></div>
+        </div>
+        <div class="kotak2">
+            <div class="jdlBox"><h3>7500</h3><h4 id="jdlsaldo">POINT</h4></div>
+        </div>
+    </div>
+    <section class="home">
+      <div class="home-content">
+        <h1>Halo Agus</h1>
+        <h3>Ini Adalah Halaman Daftar Riwayat Pekerjaan Kamu</h3>
+        <p>Klik "Riwayat Tugas" Untuk melihat Pekerjaan yang telah kamu lakukan. Klik "Tugas" untuk Melihat Tugas Terkini</p>
+        <div class="btn-box">
+          <a href="#modal1" class="modal-toggle">Riwayat Tugas</a>
+          <a href="#modal2" class="modal-toggle">Tugas</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal-container" id="modal1">
+      <div class="modal-content">
+        <!-- Konten kotak atau pop-up 1 -->
+        <h2>RIWAYAT TUGAS</h2>
+        <div class="riwayat-content">
+          <div class="riwayat-item">
+            <p class="riwayat-job">Nama Tugas : Membersihkan Kandang Ayam</p>
+            <p class="riwayat-date">Tanggal Mulai : 1 Januari 2023</p>
+            <p class="riwayat-date2">Tanggal Selesai : 1 Januari 2023</p>
+            <p class="riwayat-price">Harga: Rp. 100.000</p>
+            <p class="riwayat-points">Poin: +50</p>
+            <p class="riwayat-saldo">Saldo Terakhir: 400.000</p>
+          </div>
+          <div class="riwayat-item">
+            <p class="riwayat-job">Nama Tugas : Joki Tugas Kuliah</p>
+            <p class="riwayat-date">Tanggal Mulai : 1 Januari 2023</p>
+            <p class="riwayat-date2">Tanggal Selesai : 10 Januari 2023</p>
+            <p class="riwayat-price">Harga: Rp. 50.000</p>
+            <p class="riwayat-points">Poin: +30</p>
+            <p class="riwayat-saldo">Saldo Terakhir: 30.000</p>
+          </div>
+          <div class="riwayat-item">
+            <p class="riwayat-job">Nama Tugas : Menemani Belanja</p>
+            <p class="riwayat-date">Tanggal Mulai : 1 Januari 2023</p>
+            <p class="riwayat-date2">Tanggal Selesai : 10 Januari 2023</p>
+            <p class="riwayat-price">Harga: Rp. 50.000</p>
+            <p class="riwayat-points">Poin: +30</p>
+            <p class="riwayat-saldo">Saldo Terakhir: 30.000</p>
+          </div>
+        </div>
+        <a href="riwayat.html" class="close-modal">Tutup</a>
+      </div>
+    </div>
+    
+    <div class="modal-container" id="modal2">
+      <div class="modal-content">
+        <!-- Konten kotak atau pop-up 2 -->
+        <h2>TUGAS</h2>
+        <div class="tugas-content">
+          <div class="tugas-item">
+            <p class="nama-tugas">Nama Tugas : Membersihkan Kandang Ayam</p>
+            <p class="tugas-date">Tanggal Mulai : 1 september 2023</p>
+            <p class="tugas-price">Harga: Rp. 100.000</p>
+            <p class="points">Poin: +50</p>
+            <a href="ambilTugas.html" class="ambil-tugas">Ambil</a>
+          </div>
+          <div class="tugas-item">
+            <p class="nama-tugas">Nama Tugas : Menemani Belanja</p>
+            <p class="tugas-date">Tanggal Mulai : 3 Januari 2023</p>
+            <p class="tugas-price">Harga: Rp. 100.000</p>
+            <p class="points">Poin: +50</p>
+            <a href="ambilTugas.html" class="ambil-tugas">Ambil</a>
+          </div>
+          <div class="tugas-item">
+            <p class="nama-tugas">Nama Tugas : Memperbaiki mesin cuci</p>
+            <p class="tugas-date">Tanggal Mulai : 15 Januari 2023</p>
+            <p class="tugas-price">Harga: Rp. 100.000</p>
+            <p class="points">Poin: +50</p>
+            <a href="ambilTugas.html" class="ambil-tugas">Ambil</a>
+          </div>
+          </div class="aksi">
+            <a href="riwayat.html" class="close-modal">Tutup</a>
+          </div>
+    </div>
+
+
+    <div id="footer">
+      2023 Perlombaan Desain Web | All Right Reserved  
+    </div>
+
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var modalToggles = document.querySelectorAll('.modal-toggle');
+        var btnBox = document.querySelector('.btn-box');
+
+        modalToggles.forEach(function(toggle) {
+          toggle.addEventListener('click', function() {
+            btnBox.style.display = 'none';
+          });
+        });
+
+        document.addEventListener('click', function(event) {
+          if (event.target.classList.contains('close-modal')) {
+            btnBox.style.display = 'block';
+          }
+        });
+
+      });
+
+    </script>
+</body>
+</html>

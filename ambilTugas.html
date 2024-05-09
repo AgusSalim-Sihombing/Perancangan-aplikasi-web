@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/ambilTugas.css">
+</head>
+<body>
+    <div class="container">
+        <header>Data</header>
+        <form action="./beranda.html">
+          <div class="field email-field">
+            <div class="input-field">
+              <input type="email" placeholder="Masukkan Email" class="email" />
+            </div>
+            <span class="error email-error">
+              <i class="bx bx-error-circle error-icon"></i>
+              <p class="error-text">Tolong Masukkan Email yang Valid</p>
+            </span>
+          </div>
+          <div class="field create-password">
+            <div class="input-field">
+              <input
+                type="password"
+                placeholder="Password"
+                class="password"
+              />
+              <i class="bx bx-hide show-hide"></i>
+            </div>
+            <span class="error password-error">
+              <i class="bx bx-error-circle error-icon"></i>
+              <p class="error-text">
+                Tolong Masukkan Minimal 5 Karakter
+              </p>
+            </span>
+          </div>
+          <div class="field confirm-password">
+            <div class="input-field">
+              <input
+                type="password"
+                placeholder="Konfirmasi Password"
+                class="cPassword"
+              />
+              <i class="bx bx-hide show-hide"></i>
+            </div>
+            <span class="error cPassword-error">
+              <i class="bx bx-error-circle error-icon"></i>
+              <p class="error-text">Password Email Salah</p>
+            </span>
+          </div>
+          <div class="input-field button">
+            <input type="submit" value="Kirim" />
+          </div>
+        </form>
+      </div>
+     <script src="./assets/js/script2.js"></script>
+</body>
+</html>

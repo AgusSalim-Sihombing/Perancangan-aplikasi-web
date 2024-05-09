@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  body{
+    height: 100vh;
+    background-image: url(./aset/sett/Nền\ ppt.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.sett{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 100px;
+    width: 200px 10px;
+    border: solid gray 2px;
+    border-radius: 2px;
+    background-color: rgba(128, 128, 128, 0.352);
+    font-size: large;
+}
+  input{
+    position: fixed;
+    cursor: pointer; 
+  }

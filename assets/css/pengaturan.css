@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    /* font-family: 'Open Sans', sans-serif; */
+  }
+  body{
+  height: 100vh;
+  background-image: url('../../aset/desktop-wallpaper-desk-office-table.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+.lingkar{
+  width: 200px;
+	height: 200px;
+	background: rgb(106, 103, 101);
+  margin-top: 90px;
+  margin-left: 525px;
+	border-radius: 100%;
+}
+h2 {
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+.sett{
+  margin-top: 20px ;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  padding: 100px;
+  width: 200px 10px;
+  font-size: large;
+}
+
+.section{
+  margin-top: 50px;
+  padding: 90px;
+}
+.section li {
+  list-style-type: none;
+  background-color: rgb(123, 123, 123);
+  padding: 9px;
+  border: 1px solid black ;
+  justify-content: space-between;
+  display: flex;
+}
+li:hover{
+    background-color: rgb(245, 245, 245);
+}

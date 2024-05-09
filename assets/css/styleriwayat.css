@@ -1,0 +1,363 @@
+body {
+    background: url('../../aset/Lovepik_com-501019784-office-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.kotak{
+    margin-top: 100px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+}
+.kotak .kotak1{
+    color: black;
+    background-color: rgb(239, 159, 66);
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    margin-right: 250px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.kotak .kotak2{
+    color: black;
+    background-color: rgb(239, 159, 66);
+    border: 1px solid black;
+    border-radius:10px ;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    margin-left: 250px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#jdlsaldo{
+    margin-top: 30px;
+    margin-bottom:-40px ;
+    opacity: 0.5;
+}
+
+.riwayat-tugas{
+    margin-top: 5px;
+}
+
+.riwayat-tugas .daftar-riwayat{
+    display: flex;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 2px;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 20px;
+}
+.riwayat-link{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    clear:none;
+    margin-left: 40px;
+}
+.daftar-riwayat a{
+    display: flex;
+    font-size: 23px;
+}
+
+/* ###################################################### */
+.daftar-tugas {
+    display: none;
+}
+
+.dataTugas{
+    background-color: aqua;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+/* .daftar-tugas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.datakiri {
+    display: flex;
+    align-items: center;
+}
+  
+.datakanan {
+    margin-left: auto;
+}
+  
+.tgl {
+    display: flex;
+    align-items: center;
+}
+  
+.point {
+    margin-left: auto;
+}
+  
+.riwayat-tugas .riwayat-link.active {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aqua;
+}
+  
+.tugas {
+    display: none;
+}
+  
+.tugas.visible {
+    display: block;
+}
+  
+.tugas.active {
+    border: 2px solid blue;
+}
+.riwayat-tugas{
+    margin-top: 100px;
+}
+
+
+.judul1{
+    font-size: 30px;
+    color: white;
+}
+
+.home{
+    margin-top: 0;
+}
+
+.home-content{
+    max-width: 600px;
+    margin-left: 30px;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height:1.2 ;
+    color: white;
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color:white;
+}
+.home-content p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+    color: white;
+}
+.home-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 136, 0);
+    border: 2px solid rgb(255, 128, 0);
+    border-radius: 8px;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index:1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.btn-box a:hover{
+    color:rgb(255, 255, 255);
+}
+
+.btn-box a:nth-child(2):hover{
+    color: #081b29;
+}
+.btn-box a:nth-child(2)::before{
+    background: rgb(255, 255, 255);
+}
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: white;
+}
+
+.btn-box a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    z-index:-1;
+    transition:.5s ;
+}
+
+.btn-box a:hover::before{
+    width: 100%;
+}
+
+
+  
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px); /* Efek blur pada latar belakang halaman */
+}
+
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(30, 28, 28);
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+}
+  
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    color: #888;
+    text-decoration: none;
+    padding: 5px;
+}
+  
+.modal-content .riwayat-content {
+    flex: 1;
+    overflow-y: auto;
+    width: 100%;
+}
+.modal-content .tugas-content {
+    flex: 1;
+    overflow-y: auto;
+    width: 100%;
+}
+  
+  
+
+.modal-container:target{
+    display: flex;
+}
+
+.close-modal{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 103, 18);
+    border: 2px solid rgb(190, 190, 190);
+    border-radius: 8px;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index:1;
+    overflow: hidden;
+    transition: .5s;
+
+}
+.close-modal:hover{
+    color:rgb(255, 255, 255);
+}
+.aksi {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+.ambil-tugas {
+    color: black;
+    padding: 5px;
+    background-color: red;
+    text-decoration: none;
+    margin-right: 10px;
+    border: 1px solid aqua;
+    border-radius: 4px;
+}
+.close-modal::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    z-index:-1;
+    transition:.5s ;
+}
+
+.close-modal:hover::before{
+    width: 100%;
+}
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 80vh;
+    overflow-y: auto;
+}
+  
+.riwayat-content .riwayat-item:not(:last-child)::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+
+.tugas-content .tugas-item:not(:last-child)::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+  

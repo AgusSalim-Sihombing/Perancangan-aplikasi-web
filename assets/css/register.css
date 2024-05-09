@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgb(248, 248, 248);
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    width: 100px;
+    height: 80px;
+    margin-left: 46%;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.icon{
+    font-size: 50px;
+    margin-top: 6px;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    margin: 0px auto;
+}
+.left{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 35px;
+    padding: 0px;
+}
+.right{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 35px;
+}
+.input-box{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.input{
+    height: 45px;
+    width: 90%;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.btn{
+    width: 100px;
+    height: 45px;
+    background: #073c8f;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+    margin-left: 250px;
+
+}
+/*.depan{
+    float: left;
+}
+
+.telepon{
+    float: left;
+}
+.row2{
+    float: left;
+}
+.belakang{
+    float: left;
+}
+
+.pekerjaan{
+    float: right;
+}*/

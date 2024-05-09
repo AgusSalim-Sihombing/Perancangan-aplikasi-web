@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>halaman beranda</title>
+    <link rel="stylesheet" href="./assets/css/styleBeranda.css">
+    <script src="./assets/js/script.js"></script>
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<style>
+    body{
+        background-image: url('./aset/backgrounhalamanutama/laptop_camera_ice_cream_139385_1920x1080.jpg');
+    }
+</style>
+<body>
+    <nav> 
+        <a class="logo" href="#"><img src="./aset/logo/foto1.png" alt="Logo">Leasure Work</a>
+        
+        <ul class="navbar">
+            <li><a href="beranda.html" id="beranda">BERANDA</a></li>
+            <li><a href="riwayat.html" id="riwayat">RIWAYAT</a></li>
+            <li><a href="rekomendasi.html" id="rekomendasi">REKOMENDASI</a></li>
+            <li><a href="obrolan.html" id="obrolan">OBROLAN</a></li>
+            <li><a href="pengaturan.html" id="pengaturan">PENGATURAN</a></li>
+        </ul>      
+    </nav>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Cari Pekerjaan">
+        <button id="search-button">Cari</button>
+    </div>
+
+    <section  id="services-sec">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <div class="berijasa">
+                        <h4><i class="fa fa-laptop fa-3x" ></i>&nbsp;Beri Jasa </h4>
+                        <br>
+                        <div class="BTN1"><button class="Btn1" onclick="window.location.href='halaman-berikutnya.html'">Isi Jasa</button></div>                
+                            
+                    </div>
+                    <div class="mintajasa">
+                            <h4><i class="fa fa-microphone fa-3x" ></i>&nbsp;Minta Jasa</h4>
+                            <br>
+                            <div class="BTN2"><button class="Btn2" onclick="window.location.href='halaman-berikutnya.html'">Lihat Tugas</button></div>                 
+                    </div>
+
+                    <div class="tugasterkini">
+                        <h4><i class="fa fa-pencil fa-3x" ></i>&nbsp; Lihat Tugas Terkini</h4>
+                        <br>
+                        <div class="BTN3"><button class="Btn3" onclick="window.location.href='halaman-berikutnya.html'">Lihat Tugas</button></div>
+                          
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container2">
+            <div class="row g-pad-bottom">
+                <div class="col-md-6 ">
+                    <h2 class="judul1">SILAHKAN LIHAT TUGAS DI MAP</h2>
+                 
+                    <p class="keterangan">
+                         <strong> Alamat: </strong> &nbsp;Kota Medan, Mandala II, Kode Pos 221122.  
+                        <br />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.              
+                    </p>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" required="required" placeholder="Nama Pekerjaan">
+                                </div>
+                            </div>
+                            <div class="col-md-6 ">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" required="required" placeholder="Alamat">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div class="form-group">
+                                    <textarea name="message" id="message" required="required" class="form-control" rows="3" placeholder="Pesan"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-success">Kirim</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="map">
+                   <iframe class="cnt" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.787934757073!2dYOUR_LONGITUDE!3dYOUR_LATITUDE!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3AYOUR_LOCATION_NAME!2sYOUR_LOCATION_NAME!5e0!3m2!1sen!2s!4v1623665298149!5m2!1sen!2s" s ></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="footer">
+        2023 Perlombaan Desain Web | All Right Reserved  
+    </div>
+    
+</body>
+</html>
